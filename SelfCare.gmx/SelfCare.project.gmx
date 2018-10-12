@@ -5,9 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\s_wall</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_Resize.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_control</object>
+    <object>objects\o_wall</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_test</room>
+    <room>rooms\room1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
